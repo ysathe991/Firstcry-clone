@@ -46,7 +46,7 @@ const navbar = document.querySelector('#navbar');
 let defaultArr = []
 let myData = []
 
-fetch("https://footwear-server.vercel.app/girls")
+fetch("../Database/girldata.json")
   .then((res) => {
     return res.json();
   })
