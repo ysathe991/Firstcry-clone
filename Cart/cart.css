@@ -7,12 +7,19 @@
   font-size: 16px;
   /* margin-top: 20px; */
   padding: 10px;
-  background: #cc2b5e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #cc2b5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #753a88,
+    #cc2b5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #753a88,
+    #cc2b5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#myBtn{
+#myBtn {
   background-color: black;
   padding: 5px;
   font-size: 12px;
@@ -20,7 +27,8 @@ background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, F
   margin-top: 10px;
 }
 
-h3,h2 {
+h3,
+h2 {
   border: 1px solid lightgray;
   text-align: center;
   width: 80%;
@@ -28,7 +36,7 @@ h3,h2 {
   padding: 10px;
   border-radius: 8px;
 }
-#main{
+#main {
   border: 2px solid greenyellow;
 }
 
@@ -47,7 +55,8 @@ h3,h2 {
   gap: 10px;
   text-align: center;
   border-radius: 8px;
-}img {
+}
+img {
   width: 60%;
 }
 #btn {
@@ -89,7 +98,6 @@ h3,h2 {
   fill: red;
 }
 
-
 #btn1 {
   align-items: center;
   background-color: green;
@@ -129,7 +137,6 @@ h3,h2 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
- 
   #product-container {
     display: grid;
     border: 1px solid #ffd91c;
@@ -158,7 +165,6 @@ h3,h2 {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  
   #product-container {
     display: grid;
     border: 1px solid #ffd91c;
@@ -178,7 +184,6 @@ h3,h2 {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  
   #product-container {
     display: grid;
     border: 1px solid #ffd91c;
@@ -193,7 +198,6 @@ h3,h2 {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  
   #product-container {
     display: grid;
     border: 1px solid #ffd91c;
@@ -222,9 +226,8 @@ body {
   background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px ;
+  padding-top: 60px;
   padding-left: 20px;
-  
 }
 
 .sidenav a {
@@ -247,38 +250,28 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
-#next{
-
+#next {
   display: block;
   margin: auto;
 }
-#nxt{
+#nxt {
   text-decoration: none;
 }
-#order{
+#order {
   align-items: center;
   background-color: green;
   border: 2px solid green;
-  box-sizing: border-box;
   color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  fill: #000;
-  font-size: 15px;
-  font-weight: 500;
-  height: 35px;
-  justify-content: center;
-  line-height: 24px;
-  min-width: 100px;
-  transition: all 0.3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  border-radius: 5px;
-  
+  padding: 10px;
+  margin-left: 50%;
+  margin-top: 20px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }

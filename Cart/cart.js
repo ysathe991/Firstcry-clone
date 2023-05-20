@@ -49,9 +49,6 @@ function fetchData(data){
 
     card.innerHTML = null;
     
-    if(getData.length === 0){
-    alert("Empty Cart")
-    }
 
     let total = 0;
 
